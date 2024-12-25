@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengapa Programmer Wajib Menggunakan Git</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .highlight {
+            background-color: #eaf7ff;
+            padding: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .list {
+            margin-left: 20px;
+        }
+        .list li {
+            margin-bottom: 10px;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mengapa Programmer Wajib Menggunakan Git</h1>
+
+    <h2>Awal Karier Seorang Programmer</h2>
+    <p>Dian adalah seorang programmer pemula yang baru saja diterima di sebuah perusahaan teknologi. Sebagai lulusan baru, ia penuh semangat dan mulai bekerja dengan sebuah proyek pengembangan aplikasi berbasis web. Namun, Dian memiliki satu kebiasaan: dia lebih suka menyimpan file proyek di folder komputernya tanpa menggunakan sistem kontrol versi.</p>
+    <p>Setiap kali membuat perubahan pada kodenya, Dian akan membuat salinan folder proyek dengan nama seperti:</p>
+    <ul class="list">
+        <li><code>proyek_final</code></li>
+        <li><code>proyek_final_beneran</code></li>
+        <li><code>proyek_final_beneran_revisi</code></li>
+    </ul>
+    <p>Folder-folder ini pun mulai menumpuk di komputer Dian, membuatnya bingung ketika ia harus kembali ke versi sebelumnya. Ketika bosnya meminta untuk mengembalikan fitur ke versi dua minggu yang lalu, Dian membutuhkan waktu hampir sehari penuh hanya untuk mencari file yang benar.</p>
+
+    <h2>Tantangan Bekerja dalam Tim</h2>
+    <p>Seminggu kemudian, Dian mulai bekerja dengan tim developer lainnya. Salah satu anggota tim, Andi, sedang mengembangkan fitur baru, sementara Dian sedang memperbaiki bug di fitur lama. Keduanya bekerja di file yang sama. Setelah selesai, Dian langsung menimpa file tersebut tanpa menyadari perubahan yang telah dilakukan Andi.</p>
+    <p class="highlight">Ketika mereka menjalankan aplikasi, ternyata banyak fitur yang rusak. Perubahan yang dilakukan Andi hilang, dan tim harus menghabiskan waktu berjam-jam untuk mencoba memulihkan kodenya. Di sinilah Dian mulai menyadari satu hal: <strong>bekerja tanpa sistem kontrol versi seperti mencoba membangun rumah tanpa cetak biru.</strong></p>
+
+    <h2>Mengenal Git</h2>
+    <p>Setelah kejadian itu, manajer proyek meminta semua anggota tim, termasuk Dian, untuk menggunakan Git. Awalnya, Dian menganggapnya rumit. Ada banyak istilah baru seperti <em>commit</em>, <em>branch</em>, <em>merge</em>, dan <em>pull request</em>. Namun, perlahan-lahan, Dian mulai menyadari manfaat besar dari Git.</p>
+    <ul class="list">
+        <li><strong>Menyimpan Perubahan dengan Aman</strong>  
+            <br>Dengan Git, setiap perubahan kode yang dibuat oleh Dian dapat disimpan sebagai <em>commit</em>. Setiap kali ada kesalahan, Dian hanya perlu kembali ke <em>commit</em> sebelumnya tanpa harus mencari file lama di tumpukan foldernya.</li>
+        <li><strong>Kolaborasi Tanpa Konflik</strong>  
+            <br>Git memungkinkan Dian dan Andi bekerja di file yang sama tanpa takut perubahan mereka saling menimpa. Dengan fitur seperti <em>branching</em>, mereka bisa bekerja di jalur masing-masing, lalu menggabungkan (<em>merge</em>) pekerjaan mereka dengan mudah.</li>
+        <li><strong>Audit dan Riwayat Perubahan</strong>  
+            <br>Ketika bos Dian bertanya siapa yang mengubah baris kode tertentu atau kapan perubahan itu dilakukan, Git memberikan jawabannya dengan cepat melalui perintah seperti <code>git log</code> atau <code>git blame</code>.</li>
+        <li><strong>Integrasi dengan Platform Modern</strong>  
+            <br>Git terintegrasi dengan platform seperti GitHub, GitLab, dan Bitbucket, memungkinkan tim untuk mengelola proyek secara online. Ini juga mempermudah tim untuk melakukan <em>code review</em> dan mendokumentasikan perubahan.</li>
+    </ul>
+
+    <h2>Perubahan dalam Hidup Dian</h2>
+    <p>Beberapa bulan kemudian, proyek tim Dian berjalan lebih lancar dibandingkan sebelumnya. Tidak ada lagi file yang hilang, tidak ada lagi waktu yang terbuang hanya untuk memperbaiki kesalahan akibat konflik antarprogrammer. Bahkan, Dian merasa lebih percaya diri dengan pekerjaannya karena Git membuatnya merasa selalu punya cadangan.</p>
+    <p>Dian juga mulai menggunakan Git untuk proyek pribadinya. Setiap kali ia belajar sesuatu yang baru, ia membuat repositori Git agar bisa merekam perjalanan belajarnya. Ketika dia mengalami kesalahan di masa depan, dia tinggal melihat kembali riwayat proyeknya di Git.</p>
+
+    <h2>Kesimpulan</h2>
+    <p>Git adalah alat yang wajib dimiliki oleh setiap programmer, baik yang bekerja sendiri maupun dalam tim. Tanpa Git, seorang programmer seperti seorang pelukis tanpa kanvas atau seorang penulis tanpa pena—sulit untuk mengorganisasi pekerjaan mereka. Dengan Git, Dian belajar bahwa kontrol versi bukan hanya tentang kode, tetapi tentang efisiensi, kolaborasi, dan ketenangan pikiran.</p>
+    <p><strong>Jadi, apakah Anda sudah menggunakan Git? Jika belum, mungkin inilah saatnya untuk mulai. Seperti kata pepatah, "Lebih baik terlambat daripada tidak sama sekali."</strong></p>
+
+    <footer>
+        &copy; 2024 - Cerita Git untuk Programmer
+    </footer>
+</body>
+</html>

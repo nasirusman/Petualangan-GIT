@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petualangan Git</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+        p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        code {
+            display: block;
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .analogi {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Petualangan Git dan Buku Ajaib</h1>
+
+        <h2>Bab 1: Membuka Buku Baru</h2>
+        <p>Git memutuskan untuk menulis kisah petualangan pertamanya. Untuk itu, dia membuka halaman kosong di buku ajaibnya.</p>
+        <code>git init</code>
+        <p class="analogi">Analogi: Membuka buku catatan baru untuk mulai menulis jurnal.</p>
+
+        <h2>Bab 2: Menyalin Buku yang Sudah Ada</h2>
+        <p>Git mendengar bahwa di perpustakaan (GitHub), ada buku ajaib serupa yang sudah ditulis. Daripada memulai dari awal, dia memutuskan untuk membuat salinan.</p>
+        <code>git clone https://perpustakaan/buku-petualangan.git</code>
+        <p class="analogi">Analogi: Membuat salinan fotokopi dari buku seseorang.</p>
+
+        <h2>Bab 3: Menulis Halaman Baru</h2>
+        <p>Git mulai menulis. Dia menciptakan bab-bab baru dan mengedit bab lama.</p>
+        <code>git add .</code>
+        <p>Setelah selesai, dia menyimpan pekerjaannya:</p>
+        <code>git commit -m "Bab pertama selesai"</code>
+        <p class="analogi">Analogi: Menyimpan dokumen ke folder arsip.</p>
+
+        <h2>Bab 4: Mengecek Kemajuan</h2>
+        <p>Git kadang ingin melihat apa yang sudah dia tulis dan apa yang belum selesai.</p>
+        <code>git status</code>
+        <p>Untuk melihat riwayat pekerjaannya:</p>
+        <code>git log</code>
+        <p class="analogi">Analogi: Membuka buku catatan untuk melihat catatan sebelumnya.</p>
+
+        <h2>Bab 5: Membagi Cerita ke Cabang Baru</h2>
+        <p>Suatu hari, Git ingin mencoba jalan cerita baru tanpa mengganggu jalan cerita utama.</p>
+        <code>git branch jalan-cerita-alternatif</code>
+        <p>Lalu, dia mulai menulis di cabang itu:</p>
+        <code>git checkout jalan-cerita-alternatif</code>
+        <p class="analogi">Analogi: Membuat dunia paralel tanpa merusak cerita utama.</p>
+
+        <h2>Bab 6: Menggabungkan Cerita</h2>
+        <p>Git menyadari bahwa cerita utama dan cabang alternatifnya bisa digabungkan.</p>
+        <code>git checkout main</code>
+        <code>git merge jalan-cerita-alternatif</code>
+        <p class="analogi">Analogi: Menggabungkan dua jalur cerita menjadi satu kisah utuh.</p>
+
+        <h2>Bab 7: Bekerja Sama dengan Penerbit</h2>
+        <p>Git ingin berbagi cerita dengan penerbit di kota jauh (remote server). Dia menghubungkan bukunya dengan perpustakaan penerbit.</p>
+        <code>git remote add origin https://perpustakaan.git</code>
+        <p>Setelah itu, dia mengirimkan ceritanya:</p>
+        <code>git push origin main</code>
+        <p class="analogi">Analogi: Mengirimkan bab baru ke penerbit.</p>
+
+        <h2>Bab 8: Mendapatkan Pembaruan dari Penerbit</h2>
+        <p>Git menerima surat dari penerbit bahwa ada bab baru yang ditambahkan oleh editor. Dia mengambil pembaruan itu:</p>
+        <code>git pull origin main</code>
+        <p class="analogi">Analogi: Menerima revisi baru dari penerbit.</p>
+
+        <h2>Bab 9: Mengatur Ulang dan Merapikan</h2>
+        <p>Suatu hari, Git ingin menghapus kesalahan besar yang dia buat di bab sebelumnya. Dia mengatur ulang bukunya:</p>
+        <code>git reset --hard &lt;id-commit&gt;</code>
+        <p class="analogi">Analogi: Menghapus coretan dan mengembalikan cerita ke kondisi sebelumnya.</p>
+
+        <h2>Bab 10: Kolaborasi dengan Teman</h2>
+        <p>Git tidak bekerja sendirian. Dia bekerja sama dengan temannya, Dev. Mereka menggunakan alur kerja ini:</p>
+        <code>
+            git pull origin main<br>
+            git checkout -b tambahan-fitur<br>
+            git add .<br>
+            git commit -m "Menambahkan fitur baru"<br>
+            git push origin tambahan-fitur
+        </code>
+        <p class="analogi">Analogi: Berkolaborasi untuk membuat cerita yang lebih kaya dan bermakna.</p>
+    </div>
+</body>
+</html>
